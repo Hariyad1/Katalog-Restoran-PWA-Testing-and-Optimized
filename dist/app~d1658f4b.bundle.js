@@ -394,8 +394,8 @@ main {
 
 /* fitur like */
 .like {
-  width: 55px;
-  height: 55px;
+  width: 44px;
+  height: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
