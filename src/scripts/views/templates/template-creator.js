@@ -48,7 +48,7 @@ const createRestaurantItem = (restaurant) => `
   <div class="contentlist" id="list">
     <a href="/#/detail/${restaurant.id}">
       <div class="resto_info">
-        <img class="image" crossorigin="anonymous" src="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}" alt="${restaurant.name}">
+        <img loading="lazy" class="image" crossorigin="anonymous" src="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}" alt="${restaurant.name}">
         <h2 class="info_judul">${restaurant.name}</h2>
         <p class="info_city">${restaurant.city}</p>
         <p class="info_desc">${restaurant.description.slice(0, 225)}</p>
